@@ -66,3 +66,11 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+TrainingIOS\.xcodeproj/project\.xcworkspace/contents\.xcworkspacedata
+
+TrainingIOS\.xcodeproj/project\.xcworkspace/xcshareddata/IDEWorkspaceChecks\.plist
+
+TrainingIOS\.xcworkspace/contents\.xcworkspacedata
+
+TrainingIOS\.xcworkspace/xcshareddata/IDEWorkspaceChecks\.plist

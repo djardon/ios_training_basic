@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RoJ-bD-I8V">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="zxz-2x-XWy">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RoJ-bD-I8V" customClass="MainTabBarController" customModule="TrainingIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="azU-Bq-yGd">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ja6-40-vFY" kind="relationship" relationship="viewControllers" id="dyf-ex-oj7"/>
+                        <segue destination="YSf-hS-t84" kind="relationship" relationship="viewControllers" id="aIT-Ap-Cle"/>
+                        <segue destination="eTR-rx-JWb" kind="relationship" relationship="viewControllers" id="HYp-Jx-syS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tiD-RC-Vn5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--StudentsNavigationController-->
+        <scene sceneID="QAK-PZ-6Ef">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Students" referencedIdentifier="StudentsNavigationController" id="Ja6-40-vFY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Students" image="students" id="VEF-6g-16E"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xeC-VH-GIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="35"/>
+        </scene>
+        <!--TeachersNavigationController-->
+        <scene sceneID="nY9-bw-fZT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Teachers" referencedIdentifier="TeachersNavigationController" id="YSf-hS-t84" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Teachers" image="teachers" id="966-DT-jZO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOB-tm-r85" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="138"/>
+        </scene>
+        <!--SubjectsNavigationController-->
+        <scene sceneID="Abc-d1-d32">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Subjects" referencedIdentifier="SubjectsNavigationController" id="eTR-rx-JWb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Subjects" image="subjects" id="fBB-Vu-UI3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9qH-a5-N3c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979" y="245"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="students" width="30" height="27"/>
+        <image name="subjects" width="24" height="30"/>
+        <image name="teachers" width="20" height="30"/>
+    </resources>
+</document>
