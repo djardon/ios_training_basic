@@ -13,6 +13,8 @@ class SubjectViewCell: UICollectionViewCell {
     static let mEstimatedHeight: CGFloat = 150.0
     
     // MARK: - Outlets -
+    @IBOutlet weak var mView: UIView?
+    @IBOutlet weak var mBottomView: UIView?
     @IBOutlet weak var mImageView: UIImageView!
     @IBOutlet weak var mTitleLabel: UILabel!
     @IBOutlet weak var mYearLabel: UILabel!
@@ -24,6 +26,18 @@ class SubjectViewCell: UICollectionViewCell {
         mTitleLabel?.text = ""
         mYearLabel?.text = ""
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+        configure(view: mView)
+        
+        // Fix corner of translucent bottom view with the same bottom
+        // left and right corner radius
+        mBottomView?.layer.cornerRadius = 8
+        mBottomView?.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
+    }
+        
     
     // MARK: - Configure methods -
     func configureCell(data: Subject) {

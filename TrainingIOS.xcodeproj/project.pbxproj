@@ -33,6 +33,7 @@
 		0F2ADA32226DCF9000A76788 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F2ADA34226DCF9000A76788 /* Localizable.strings */; };
 		0F7DA3B3226B44040065E0A6 /* SubjectDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7DA3B2226B44040065E0A6 /* SubjectDetail.storyboard */; };
 		0F7DA3B5226B449B0065E0A6 /* SubjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DA3B4226B449B0065E0A6 /* SubjectDetailViewController.swift */; };
+		0FCCE3242270723B00243ADE /* CollectionViewCellExtensio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCE3232270723B00243ADE /* CollectionViewCellExtensio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		0F2ADA35226DCF9D00A76788 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0F7DA3B2226B44040065E0A6 /* SubjectDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubjectDetail.storyboard; sourceTree = "<group>"; };
 		0F7DA3B4226B449B0065E0A6 /* SubjectDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectDetailViewController.swift; sourceTree = "<group>"; };
+		0FCCE3232270723B00243ADE /* CollectionViewCellExtensio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellExtensio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				0F1E001B2268A10900F74342 /* TableViewCellExtension.swift */,
 				0F1E00392268BF1600F74342 /* DateExtension.swift */,
 				0F2ADA2A226DCAD900A76788 /* ViewControllerExtension.swift */,
+				0FCCE3232270723B00243ADE /* CollectionViewCellExtensio.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				0F7DA3B5226B449B0065E0A6 /* SubjectDetailViewController.swift in Sources */,
 				0F2ADA2B226DCAD900A76788 /* ViewControllerExtension.swift in Sources */,
 				0F1E003C2268BF7800F74342 /* Constants.swift in Sources */,
+				0FCCE3242270723B00243ADE /* CollectionViewCellExtensio.swift in Sources */,
 				0F1E003A2268BF1600F74342 /* DateExtension.swift in Sources */,
 				0F1E002A2268AD0100F74342 /* TeachersViewController.swift in Sources */,
 				0F1E00232268A79400F74342 /* StudentsViewController.swift in Sources */,

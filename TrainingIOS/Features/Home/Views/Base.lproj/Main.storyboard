@@ -15,6 +15,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RoJ-bD-I8V" customClass="MainTabBarController" customModule="TrainingIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="azU-Bq-yGd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -32,7 +33,7 @@
         <scene sceneID="QAK-PZ-6Ef">
             <objects>
                 <viewControllerPlaceholder storyboardName="Students" referencedIdentifier="StudentsNavigationController" id="Ja6-40-vFY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Students" image="students" id="VEF-6g-16E"/>
+                    <tabBarItem key="tabBarItem" title="Students" image="ic_tab_students" id="VEF-6g-16E"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xeC-VH-GIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +43,7 @@
         <scene sceneID="nY9-bw-fZT">
             <objects>
                 <viewControllerPlaceholder storyboardName="Teachers" referencedIdentifier="TeachersNavigationController" id="YSf-hS-t84" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Teachers" image="teachers" id="966-DT-jZO"/>
+                    <tabBarItem key="tabBarItem" title="Teachers" image="ic_tab_teachers" id="966-DT-jZO"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UOB-tm-r85" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +53,7 @@
         <scene sceneID="Abc-d1-d32">
             <objects>
                 <viewControllerPlaceholder storyboardName="Subjects" referencedIdentifier="SubjectsNavigationController" id="eTR-rx-JWb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Subjects" image="subjects" id="fBB-Vu-UI3"/>
+                    <tabBarItem key="tabBarItem" title="Subjects" image="ic_tab_subjects" id="fBB-Vu-UI3"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9qH-a5-N3c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,8 +61,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="students" width="30" height="27"/>
-        <image name="subjects" width="24" height="30"/>
-        <image name="teachers" width="20" height="30"/>
+        <image name="ic_tab_students" width="30" height="27"/>
+        <image name="ic_tab_subjects" width="24" height="30"/>
+        <image name="ic_tab_teachers" width="20" height="30"/>
     </resources>
 </document>

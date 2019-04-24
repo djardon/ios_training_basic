@@ -113,7 +113,7 @@
         <scene sceneID="d5C-AE-ncp">
             <objects>
                 <navigationController storyboardIdentifier="TeachersNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mLp-k2-Tcv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Teachers" image="teachers" id="2bb-5I-uq9"/>
+                    <tabBarItem key="tabBarItem" title="Teachers" image="ic_tab_teachers" id="2bb-5I-uq9"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1cG-1X-Thg">
@@ -131,6 +131,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="teachers" width="20" height="30"/>
+        <image name="ic_tab_teachers" width="20" height="30"/>
     </resources>
 </document>

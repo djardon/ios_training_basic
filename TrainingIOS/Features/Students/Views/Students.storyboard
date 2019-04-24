@@ -107,7 +107,7 @@
         <scene sceneID="nOz-kf-BFY">
             <objects>
                 <navigationController storyboardIdentifier="StudentsNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lmn-Af-CtM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Students" image="students" id="3mK-rL-qQL"/>
+                    <tabBarItem key="tabBarItem" title="Students" image="ic_tab_students" id="3mK-rL-qQL"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9oZ-vZ-bxL">
@@ -125,6 +125,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="students" width="30" height="27"/>
+        <image name="ic_tab_students" width="30" height="27"/>
     </resources>
 </document>
