@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  TrainingIOS
+
+  Created by David Jardon on 22/04/2019.
+  Copyright © 2019 David Jardon. All rights reserved.
+*/
+
+"title_alert" = "Delete subject?";
+"message_alert" = "Continue with this action you delete this subject";
+"accept" = "Accept";
+"cancel" = "Cancel";
